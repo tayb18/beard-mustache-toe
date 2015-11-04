@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="head-image">
+			<img src="https://files.slack.com/files-pri/T0351JZQ0-F0DPVDV2R/ga.png">
+		</div>
+
+		<div class="hOne">
+			<h1>Bank of GA</h1>
+		</div>
+	</div>
+
+	<div class="bank-accounts">
+		<div class="accounts" id="checking">
+			<p class="text">Checking</p>
+			<div class="redBox" id="checkingBalance">
+				<p id="checkingAmount">0</p>
+			</div>
+			<input type="text" id="checkingInput" placeholder="enter an amount" id="checkingInput">
+			<button class="checking-deposit" id="checkingDeposit">Deposit</button>
+			<button class="checking-withdraw" id="checkingWithdraw">Withdraw</button></div>
+
+		<div class="accounts" id="savings">	
+			<p class="text">Savings</p>
+			<div class="redBox" id="savingsBalance">
+				<p id="savingsAmount">0</p>
+			</div>
+			<input type="text" id="savingsInput" placeholder="enter an amount">
+			<button class="savings-deposit" id="savingsDeposit">Deposit</button>
+			<button class="savings-withdraw" id="savingsWithdraw">Withdraw</button>			
+		</div>
+	</div>
+
+	<div></div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
